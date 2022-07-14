@@ -17,11 +17,11 @@
   "scripts": {
     "eslint": "eslint . --color",
     "eslint:fix": "eslint . --color --fix",
-    "stylelint": "stylelint **/*.scss --color",
-    "stylelint:fix": "stylelint **/*.scss --color --fix",
+    "stylelint": "stylelint **/*.css --color",
+    "stylelint:fix": "stylelint **/*.css --color --fix",
     "codebase": "yarn eslint && yarn stylelint",
     "codebase:fix": "yarn eslint:fix && yarn stylelint:fix",
     "build": "node app/javascript/build.js",
-    "build:css": "tailwindcss -i app/assets/stylesheets/application.css app/assets/builds/application.css --watch"
+    "build:css": "tailwindcss -i app/assets/stylesheets/application.css -o app/assets/builds/application.css"
   }
 }
