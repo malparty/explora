@@ -1,0 +1,12 @@
+<!--Left Col-->
+<div  id="hellow_world1" class="flex flex-col w-full xl:w-2/5">
+  <%= turbo_frame_tag "users", src:"/users"  do %>
+    <p>Users are loading...</p>
+  <% end %>
+</div>
+<!--Right Col-->
+<div id="hellow_world2" class="w-full xl:w-3/5 p-12">
+  <%= turbo_frame_tag "user" do %>
+    <p>Select a user...</p>
+  <% end %>
+</div>

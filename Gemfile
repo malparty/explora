@@ -23,8 +23,8 @@ gem 'pundit' # Minimal authorization through OO design and pure Ruby classes
 gem 'sprockets-rails' # The original asset pipeline for Rails
 gem 'cssbundling-rails' # Bundle and process CSS
 gem 'jsbundling-rails' # Bundle and transpile JavaScript
-# gem 'turbo-rails' # Hotwire's SPA-like page accelerator
-# gem 'stimulus-rails' # Hotwire's modest JavaScript framework
+gem 'turbo-rails' # Hotwire's SPA-like page accelerator
+gem 'stimulus-rails' # Hotwire's modest JavaScript framework
 # gem 'image_processing' # Use Active Storage variants
 
 # Translations
